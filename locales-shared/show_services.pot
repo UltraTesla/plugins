@@ -1,0 +1,43 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-27 17:44-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/Cmd/show_services/show_services.py:33
+msgid "Identificador"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:34
+msgid "Le pertenece a"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:35
+msgid "Nombre del servicio"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:36
+msgid "Prioridad"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:55
+#, python-format
+msgid "No se pudo encontrar ningún servicio que le pertenezca al nodo '%d'"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:58
+msgid "Aún no hay servicios registrados :-("
+msgstr ""
