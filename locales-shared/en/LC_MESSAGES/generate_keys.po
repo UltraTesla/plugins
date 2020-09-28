@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-23 20:29-0400\n"
+"PO-Revision-Date: 2020-09-23 20:42-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: modules/Cmd/generate_keys/generate_keys.py:19
+msgid "Generando claves..."
+msgstr "Generating keys..."
+
+#: modules/Cmd/generate_keys/generate_keys.py:23
+msgid "Escribiendo clave pública..."
+msgstr "Writing public key..."
+
+#: modules/Cmd/generate_keys/generate_keys.py:30
+msgid "Escribiendo la clave privada..."
+msgstr "Writing private key..."
+
+#: modules/Cmd/generate_keys/generate_keys.py:37
+msgid "Hecho."
+msgstr "Done."
+
+#~ msgid "Este no es un buen formato para humanos..."
+#~ msgstr "This is not a good format for humans..."
+
+#~ msgid "Clave pública:"
+#~ msgstr "Public key:"
+
+#~ msgid "Clave privada:"
+#~ msgstr "Private key:"
+
+#~ msgid "¡El formato propuesto no puede ser mostrado en la salida!"
+#~ msgstr "The proposed format cannot be displayed in the output!"

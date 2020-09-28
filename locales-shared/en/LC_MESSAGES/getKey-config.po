@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-23 03:54-0400\n"
+"PO-Revision-Date: 2020-09-23 15:46-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: modules/Cmd/getKey/getKey-config.py:12
+msgid "Obtener una clave pública"
+msgstr "Get a public key"
+
+#: modules/Cmd/getKey/getKey-config.py:18
+msgid ""
+"La dirección de la red junto con el nombre de la clave. P. ej.: "
+"localhost:17000/ed25519.pub"
+msgstr ""
+"The network address along with the key name. For example: "
+"localhost:17000/ed25519.pub"
+
+#: modules/Cmd/getKey/getKey-config.py:25
+msgid ""
+"El nombre de salida del archivo. Usar 'nodes' para almacenar la clave "
+"pública en la carpeta de los nodos; usar 'users' para almacenar la clave "
+"pública en la carpeta de los usuarios; o usar la ruta de una carpeta "
+"arbitraria."
+msgstr ""
+"The output name of the file. Use 'nodes' to store the public key in the "
+"nodes folder; use 'users' to store the public key in the users folder; "
+"or use the path of an arbitrary folder."
+
+#: modules/Cmd/getKey/getKey-config.py:35
+msgid ""
+"Si la clave existe y tiene el mismo contenido que la clave descargada se "
+"sobre-escribe si se usa esta opción."
+msgstr ""
+"If the key exists and has the same content as the downloaded key, it is "
+"over-written if this option is used."
+
+#: modules/Cmd/getKey/getKey-config.py:49
+msgid ""
+"Convertir el nombre de la clave en un identificador. P. ej.: "
+"SHA3_224(USERNAME/NODE) -> ID"
+msgstr ""
+"Convert the key name to an identifier. E.g. SHA3_224(USERNAME/NODE) -> ID"
+
+#: modules/Cmd/getKey/getKey-config.py:56
+msgid "La longitud límite para la transferencia de claves."
+msgstr "The limit length for key transfer."
+
+#: modules/Cmd/getKey/getKey-config.py:70
+msgid "El tiempo de espera para conectar"
+msgstr "The timeout to connect"
+
+#: modules/Cmd/getKey/getKey-config.py:78
+msgid "El tiempo de espera de la petición"
+msgstr "The waiting time of the request"
+
+#: modules/Cmd/getKey/getKey-config.py:86
+msgid "El agente de usuario"
+msgstr "The user agent"
+
+#: modules/Cmd/getKey/getKey-config.py:93
+msgid "El límite máximo de redirecciones"
+msgstr "The maximum limit of redirects"
+
+#: modules/Cmd/getKey/getKey-config.py:101
+msgid "Habilitar la redirección"
+msgstr "Enable redirection"

@@ -1,0 +1,118 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-27 17:47-0400\n"
+"PO-Revision-Date: 2020-09-27 17:49-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: modules/Cmd/add_network/add_network.py:35
+msgid "¡La clave pública del servidor no existe!"
+msgstr "The server public key does not exist!"
+
+#: modules/Cmd/add_network/add_network.py:39
+msgid "¡La clave pública o privada del usuario no existe!"
+msgstr "The user public or private key does not exist!"
+
+#: modules/Cmd/add_network/add_network.py:59
+#, python-format
+msgid "La dirección '%s' no es válida: %s"
+msgstr "The '%s' address is not valid: %s"
+
+#: modules/Cmd/add_network/add_network.py:91
+#, python-format
+msgid "Hubo un error conectado a %s:%d: %s"
+msgstr "An error was connected to %s:%d: %s"
+
+#: modules/Cmd/add_network/add_network.py:99
+msgid "Obteniendo servicios..."
+msgstr "Obtaining services..."
+
+#: modules/Cmd/add_network/add_network.py:119
+#, python-format
+msgid "La red '%s' no existe, pero se agregará..."
+msgstr "The network '%s' does not exist, but it will be added..."
+
+#: modules/Cmd/add_network/add_network.py:131
+#, python-format
+msgid ""
+"¡No se pudo obtener el identificador de la red '%s' en la base de datos!"
+msgstr "Failed to get '%s' network ID in database!"
+
+#: modules/Cmd/add_network/add_network.py:143
+#, python-format
+msgid "El servicio '%s' ya existe de manera local. No se agregará."
+msgstr "Service '%s' already exists locally. It won't be added."
+
+#: modules/Cmd/add_network/add_network.py:151
+#, python-format
+msgid ""
+"El servicio '%s' no se agregará o actualizará porque está en la lista de "
+"exclusión"
+msgstr ""
+"The '%s' service will not be added or updated because it is on the exclusion "
+"list"
+
+#: modules/Cmd/add_network/add_network.py:158
+#, python-format
+msgid ""
+"No se incluirá el servicio %s porque sólo se prefieren algunos servicios y "
+"éste no está incluido ahí"
+msgstr ""
+"The %s service will not be included because only some services are preferred "
+"and this is not included there"
+
+#: modules/Cmd/add_network/add_network.py:168
+#, python-format
+msgid "Agregando servicio '%s' de la red '%s'"
+msgstr "Adding '%s' service to the '%s' network"
+
+#: modules/Cmd/add_network/add_network.py:180
+#, python-format
+msgid "'%s' ya está registrado en la red '%s'"
+msgstr "'%s' is already registered on the network '%s'"
+
+#: modules/Cmd/add_network/add_network.py:185
+#, python-format
+msgid "Ocurrió un error con la petición: %s"
+msgstr "An error occurred with the request: %s"
+
+#: modules/Cmd/add_network/add_network.py:189
+#, python-format
+msgid "Hubo un error interpretando los datos: %s"
+msgstr "There was an error interpreting the data: %s"
+
+#: modules/Cmd/add_network/add_network.py:192
+#, python-format
+msgid "Posible error: %s"
+msgstr "Possible error: %s"
+
+#: modules/Cmd/add_network/add_network.py:197
+#, python-format
+msgid "Copiando '%s' a '%s'..."
+msgstr "Copying '%s' to '%s'..."
+
+#: modules/Cmd/add_network/add_network.py:204
+msgid "Hecho."
+msgstr "Done."
+
+#~ msgid "No se pudo obtener la última fecha de modificación del servicio '%s'"
+#~ msgstr "Failed to get last service modification date '%s'"
+
+#~ msgid "El servicio '%s' no se actualizará ya que no se ha modificado"
+#~ msgstr "Service '%s' will not be updated as it has not been modified"
+
+#~ msgid "Actualizando servicio '%s' de la red '%s'"
+#~ msgstr "Updating '%s' service on the '%s' network"

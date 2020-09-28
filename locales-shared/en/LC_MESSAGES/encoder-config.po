@@ -1,0 +1,55 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-23 20:29-0400\n"
+"PO-Revision-Date: 2020-09-23 20:40-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: modules/Cmd/encoder/encoder-config.py:14
+msgid ""
+"Codificar archivos para la legibilidad humana. Creado para transmitir claves "
+"en medios que no aceptan una codificación textual."
+msgstr ""
+"Encode files for human readability. Created to transmit keys on media that "
+"do not accept textual encoding."
+
+#: modules/Cmd/encoder/encoder-config.py:21
+msgid "La codificación de salida del par de claves"
+msgstr "The output encoding of the key pair"
+
+#: modules/Cmd/encoder/encoder-config.py:31
+msgid "Opciones generales"
+msgstr "General options"
+
+#: modules/Cmd/encoder/encoder-config.py:34
+msgid "El archivo de entrada. Si no se específica se usa la entrada"
+msgstr "The input file. If not specific, the input is used"
+
+#: modules/Cmd/encoder/encoder-config.py:42
+msgid "El archivo de salida. Si no se específica se usa la salida"
+msgstr "The output file. If not specific, the output is used"
+
+#: modules/Cmd/encoder/encoder-config.py:50
+msgid "Codificar o descodificar"
+msgstr "Encode or decode"
+
+#: modules/Cmd/encoder/encoder-config.py:64
+msgid "Mostrar los formatos disponibles"
+msgstr "Show available formats"
+
+#: modules/Cmd/encoder/encoder-config.py:71
+msgid "El tamaño máximo de lectura"
+msgstr "The maximum reading size"

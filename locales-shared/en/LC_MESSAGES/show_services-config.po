@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-25 13:12-0400\n"
+"PO-Revision-Date: 2020-09-25 13:20-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: modules/Cmd/show_services/show_services-config.py:12
+msgid "Mostrar los servicios de los nodos registrados"
+msgstr "Show services of registered nodes"
+
+#: modules/Cmd/show_services/show_services-config.py:18
+msgid "Mostrar sólo N cantidad de servicios. Cero es infinito."
+msgstr "Show only N number of services. Zero is infinite."
+
+#: modules/Cmd/show_services/show_services-config.py:26
+msgid "Mostrar sólo los servicios de un nodo específico."
+msgstr "Display only services for a specific node."

@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<title>{{ escape(title) }}</title>
+	
+	</head>
+
+	<body>
+		<h1>{{ escape(subtitle) }}</h1>
+		<hr>
+		<ul>
+			{% for key in keys %}
+			<li><a href="{{ escape(key) }}" title="{{ escape(key) }}">{{ escape(key) }}</a></li>
+			{% end %}
+		
+		</ul>
+	
+	</body>
+
+</html>

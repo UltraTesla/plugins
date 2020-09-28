@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-23 03:49-0400\n"
+"PO-Revision-Date: 2020-09-23 14:58-0400\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:12
+msgid "Cambiar la contraseña de un usuario"
+msgstr "Change a user's password"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:18
+msgid "El nombre de usuario"
+msgstr "The username"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:25
+msgid "La contraseña a verificar (si la operación es local, se ignora)"
+msgstr "The password to verify (if the operation is local, it is ignored)"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:31
+msgid "La contraseña nueva"
+msgstr "The new password"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:44
+msgid "Límites del token por usuario"
+msgstr "Token limits per user"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:51
+msgid ""
+"La cantidad del cálculo realizado, y por lo tanto, el tiempo de ejecución "
+"dado el número de iteraciones"
+msgstr ""
+"The amount of the calculation performed, and therefore the run time given "
+"the number of iterations"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:60
+msgid "La cantidad de memoria a utilizar"
+msgstr "The amount of memory to use"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:68
+msgid "La cantidad de subprocesos paralelos"
+msgstr "The number of parallel threads"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:76
+msgid "Opciones remotas"
+msgstr "Remote options"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:80
+msgid "Cambiar la contraseña remotamente en vez de forma local"
+msgstr "Change the password remotely instead locally"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:86
+msgid "La dirección de la red"
+msgstr "The network address"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:92
+msgid "Claves"
+msgstr "Keys"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:95
+msgid "La clave pública del servidor"
+msgstr "The server public key"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:101
+msgid "La clave pública del usuario"
+msgstr "The user public key"
+
+#: modules/Cmd/change_passwd/change_passwd-config.py:108
+msgid "La clave privada del usuario"
+msgstr "The user private key"
