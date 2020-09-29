@@ -1,4 +1,5 @@
 import os
+import sys
 import pathlib
 import logging
 import tornado.web
@@ -119,6 +120,7 @@ async def MainParser(args):
 
     except Exception as err:
         logging.error(_("La dirección '%s' no es válida: %s"), args.listen, err)
+        sys.exit(1)
         return
 
     if not (os.path.exists(keyfile)):
@@ -145,6 +147,7 @@ async def MainParser(args):
 
         else:
             logging.error(_("El archivo '%s' no existe"), keyfile)
+            sys.exit(1)
             return
 
     else:
@@ -154,6 +157,7 @@ async def MainParser(args):
 
     if not (os.path.isfile(index)):
         logging.error(_("La plantilla '%s' no existe"))
+        sys.exit(1)
         return
 
     app = tornado.web.Application([
