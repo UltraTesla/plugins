@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 17:44-0400\n"
+"POT-Creation-Date: 2020-10-03 21:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,27 +17,75 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: modules/Cmd/show_services/show_services.py:33
-msgid "Identificador"
-msgstr ""
-
 #: modules/Cmd/show_services/show_services.py:34
-msgid "Le pertenece a"
+msgid "Es necesario definir la dirección de la red"
 msgstr ""
 
-#: modules/Cmd/show_services/show_services.py:35
+#: modules/Cmd/show_services/show_services.py:38
+msgid "Es necesario definir el token de acceso"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:42
+msgid "Es necesario definir el nombre de usuario"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:46
+msgid "Es necesario definir la clave pública del servidor"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:50
+msgid "Es necesario definir la clave pública del usuario"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:54
+msgid "Es necesario definir la clave privada del usuario"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:61
+#, python-format
+msgid "La dirección '%s' no es válida: %s"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:77
+#, python-format
+msgid "Hubo un error conectado a %s:%d: %s"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:85
+msgid "Obteniendo servicios..."
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:92
+#: modules/Cmd/show_services/show_services.py:124
 msgid "Nombre del servicio"
 msgstr ""
 
-#: modules/Cmd/show_services/show_services.py:36
+#: modules/Cmd/show_services/show_services.py:93
+msgid "Ruta de acceso"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:107
+#, python-format
+msgid "Error obteniendo los servicios: %s"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:122
+msgid "Identificador"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:123
+msgid "Le pertenece a"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services.py:125
 msgid "Prioridad"
 msgstr ""
 
-#: modules/Cmd/show_services/show_services.py:55
+#: modules/Cmd/show_services/show_services.py:144
 #, python-format
 msgid "No se pudo encontrar ningún servicio que le pertenezca al nodo '%d'"
 msgstr ""
 
-#: modules/Cmd/show_services/show_services.py:58
+#: modules/Cmd/show_services/show_services.py:147
 msgid "Aún no hay servicios registrados :-("
 msgstr ""

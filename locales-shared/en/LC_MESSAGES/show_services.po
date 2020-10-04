@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-27 17:44-0400\n"
-"PO-Revision-Date: 2020-09-27 17:45-0400\n"
+"POT-Creation-Date: 2020-10-03 21:54-0400\n"
+"PO-Revision-Date: 2020-10-03 22:14-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -18,28 +18,76 @@ msgstr ""
 "X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: modules/Cmd/show_services/show_services.py:33
-msgid "Identificador"
-msgstr "Identifier"
-
 #: modules/Cmd/show_services/show_services.py:34
-msgid "Le pertenece a"
-msgstr "It belongs to"
+msgid "Es necesario definir la dirección de la red"
+msgstr "It is necessary to define the network address"
 
-#: modules/Cmd/show_services/show_services.py:35
+#: modules/Cmd/show_services/show_services.py:38
+msgid "Es necesario definir el token de acceso"
+msgstr "It is necessary to define the access token"
+
+#: modules/Cmd/show_services/show_services.py:42
+msgid "Es necesario definir el nombre de usuario"
+msgstr "You need to define the username"
+
+#: modules/Cmd/show_services/show_services.py:46
+msgid "Es necesario definir la clave pública del servidor"
+msgstr "It is necessary to define the public key of the server"
+
+#: modules/Cmd/show_services/show_services.py:50
+msgid "Es necesario definir la clave pública del usuario"
+msgstr "It is necessary to define the public key of the user"
+
+#: modules/Cmd/show_services/show_services.py:54
+msgid "Es necesario definir la clave privada del usuario"
+msgstr "It is necessary to define the private key of the user"
+
+#: modules/Cmd/show_services/show_services.py:61
+#, python-format
+msgid "La dirección '%s' no es válida: %s"
+msgstr "The '%s' address is invalid: %s"
+
+#: modules/Cmd/show_services/show_services.py:77
+#, python-format
+msgid "Hubo un error conectado a %s:%d: %s"
+msgstr "An error was connected to %s:%d: %s"
+
+#: modules/Cmd/show_services/show_services.py:85
+msgid "Obteniendo servicios..."
+msgstr "Obtaining services..."
+
+#: modules/Cmd/show_services/show_services.py:92
+#: modules/Cmd/show_services/show_services.py:124
 msgid "Nombre del servicio"
 msgstr "Name of service"
 
-#: modules/Cmd/show_services/show_services.py:36
+#: modules/Cmd/show_services/show_services.py:93
+msgid "Ruta de acceso"
+msgstr "Service route"
+
+#: modules/Cmd/show_services/show_services.py:107
+#, python-format
+msgid "Error obteniendo los servicios: %s"
+msgstr "Error getting services: %s"
+
+#: modules/Cmd/show_services/show_services.py:122
+msgid "Identificador"
+msgstr "Identifier"
+
+#: modules/Cmd/show_services/show_services.py:123
+msgid "Le pertenece a"
+msgstr "It belongs to"
+
+#: modules/Cmd/show_services/show_services.py:125
 msgid "Prioridad"
 msgstr "Priority"
 
-#: modules/Cmd/show_services/show_services.py:55
+#: modules/Cmd/show_services/show_services.py:144
 #, python-format
 msgid "No se pudo encontrar ningún servicio que le pertenezca al nodo '%d'"
 msgstr "Could not find any service belonging to node '%d'"
 
-#: modules/Cmd/show_services/show_services.py:58
+#: modules/Cmd/show_services/show_services.py:147
 msgid "Aún no hay servicios registrados :-("
 msgstr "No registered services yet :-("
 

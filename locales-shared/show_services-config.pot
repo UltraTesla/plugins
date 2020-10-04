@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 13:12-0400\n"
+"POT-Creation-Date: 2020-10-03 21:55-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,50 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: modules/Cmd/show_services/show_services-config.py:12
+#: modules/Cmd/show_services/show_services-config.py:13
 msgid "Mostrar los servicios de los nodos registrados"
 msgstr ""
 
-#: modules/Cmd/show_services/show_services-config.py:18
+#: modules/Cmd/show_services/show_services-config.py:19
 msgid "Mostrar sólo N cantidad de servicios. Cero es infinito."
 msgstr ""
 
-#: modules/Cmd/show_services/show_services-config.py:26
+#: modules/Cmd/show_services/show_services-config.py:27
 msgid "Mostrar sólo los servicios de un nodo específico."
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:34
+msgid "Argumentos remotos"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:37
+msgid "Mostrar los servicios de forma remota."
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:44
+msgid "La dirección de la red"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:50
+msgid "El token de acceso"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:56
+msgid "El nombre de usuario"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:62
+msgid "Claves"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:65
+msgid "La clave pública del servidor"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:72
+msgid "La clave pública del usuario"
+msgstr ""
+
+#: modules/Cmd/show_services/show_services-config.py:80
+msgid "La clave privada del usuario"
 msgstr ""

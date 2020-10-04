@@ -7,25 +7,61 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-25 13:12-0400\n"
-"PO-Revision-Date: 2020-09-25 13:20-0400\n"
+"POT-Creation-Date: 2020-10-03 21:55-0400\n"
+"PO-Revision-Date: 2020-10-03 22:18-0400\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.1\n"
-"Last-Translator: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
 
-#: modules/Cmd/show_services/show_services-config.py:12
+#: modules/Cmd/show_services/show_services-config.py:13
 msgid "Mostrar los servicios de los nodos registrados"
 msgstr "Show services of registered nodes"
 
-#: modules/Cmd/show_services/show_services-config.py:18
+#: modules/Cmd/show_services/show_services-config.py:19
 msgid "Mostrar sólo N cantidad de servicios. Cero es infinito."
 msgstr "Show only N number of services. Zero is infinite."
 
-#: modules/Cmd/show_services/show_services-config.py:26
+#: modules/Cmd/show_services/show_services-config.py:27
 msgid "Mostrar sólo los servicios de un nodo específico."
 msgstr "Display only services for a specific node."
+
+#: modules/Cmd/show_services/show_services-config.py:34
+msgid "Argumentos remotos"
+msgstr "Remote arguments"
+
+#: modules/Cmd/show_services/show_services-config.py:37
+msgid "Mostrar los servicios de forma remota."
+msgstr "Display services remotely."
+
+#: modules/Cmd/show_services/show_services-config.py:44
+msgid "La dirección de la red"
+msgstr "The network address"
+
+#: modules/Cmd/show_services/show_services-config.py:50
+msgid "El token de acceso"
+msgstr "The access token"
+
+#: modules/Cmd/show_services/show_services-config.py:56
+msgid "El nombre de usuario"
+msgstr "The username"
+
+#: modules/Cmd/show_services/show_services-config.py:62
+msgid "Claves"
+msgstr "Keys"
+
+#: modules/Cmd/show_services/show_services-config.py:65
+msgid "La clave pública del servidor"
+msgstr "The server public key"
+
+#: modules/Cmd/show_services/show_services-config.py:72
+msgid "La clave pública del usuario"
+msgstr "The user public key"
+
+#: modules/Cmd/show_services/show_services-config.py:80
+msgid "La clave privada del usuario"
+msgstr "The user private key"
